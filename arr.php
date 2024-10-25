@@ -2,7 +2,7 @@
 function sort($book){
     
     uasort($book, function($a, $b) {
-        return strlen($b) - strlen($a); // Сравнение строк по длине в обратном порядке
+        return strlen($b) - strlen($a);
     });
 }
 
